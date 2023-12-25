@@ -38,25 +38,27 @@ function Leaderboard() {
     new Date(dateByMS).toLocaleString().substr(0, 10);
 
   return (
-    <table className={style.table}>
-      <thead>
-        <tr className={style.row}>
-          <th>Name</th>
-          <th>Elapsed Time</th>
-          <th>Date</th>
-        </tr>
-      </thead>
-      <tbody>
-        {data.length > 0 &&
-          data.map((item, index) => (
-            <tr key={index} className={style.row}>
-              <td>{item.name}</td>
-              <td>{item.elapsedTime}</td>
-              <td>{formatDate(item.startTime)}</td>
-            </tr>
-          ))}
-      </tbody>
-    </table>
+    <div className={style.container}>
+      <table className={style.table}>
+        <thead>
+          <tr className={style.row}>
+            <th>Name</th>
+            <th>Elapsed Time</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.length > 0 &&
+            data.map((item, index) => (
+              <tr key={index} className={style.row}>
+                <td>{item.name}</td>
+                <td>{item.elapsedTime}</td>
+                <td>{formatDate(item.startTime)}</td>
+              </tr>
+            ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 
