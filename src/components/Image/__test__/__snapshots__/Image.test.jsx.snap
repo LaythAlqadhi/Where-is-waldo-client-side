@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders Image component correctly 1`] = `
+<DocumentFragment>
+  <img
+    alt=""
+    class="_image_c3d7eb"
+    src="/src/assets/image.jpeg"
+  />
+</DocumentFragment>
+`;

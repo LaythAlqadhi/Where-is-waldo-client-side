@@ -1,21 +1,5 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Header component renders correctly 1`] = `
-<DocumentFragment>
-  <header>
-    <a
-      aria-label="Logo"
-      href="/"
-    >
-      Dragon Charmer's Island
-    </a>
-    <div>
-      00:00:00
-    </div>
-  </header>
-</DocumentFragment>
-`;
-
 exports[`renders Header component correctly 1`] = `
 <DocumentFragment>
   <header>

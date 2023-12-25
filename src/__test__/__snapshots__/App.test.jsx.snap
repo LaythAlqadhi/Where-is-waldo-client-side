@@ -16,14 +16,18 @@ exports[`renders App component correctly 1`] = `
   <div
     class="_container_da09e4"
   >
-    <button>
+    <button
+      type="button"
+    >
       <a
         href="/game"
       >
         Start
       </a>
     </button>
-    <button>
+    <button
+      type="button"
+    >
       <a
         href="/leaderboard"
       >
