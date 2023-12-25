@@ -26,7 +26,7 @@ function CharacterSelection({
     setFocus(!focus);
 
     const fetchData = async () => {
-      const API_URL = 'https://node.laythalqadhi.repl.co/v1';
+      const API_URL = 'https://where-is-waldo.adaptable.app/v1';
 
       try {
         setState({ ...state, loading: true });
