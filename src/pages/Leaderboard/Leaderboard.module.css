@@ -1,0 +1,36 @@
+.table {
+  max-width: 500px;
+  margin: 75px auto;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  overflow: hidden;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.row {
+  transition: background-color 0.25s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row:not(:last-child) {
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.row:hover {
+  background-color: var(--secondary-accent-color);
+}
+
+.row td,
+.row th {
+  flex: 1;
+  padding: 12px;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.row th {
+  background-color: rgba(255, 255, 255, 0.15);
+}

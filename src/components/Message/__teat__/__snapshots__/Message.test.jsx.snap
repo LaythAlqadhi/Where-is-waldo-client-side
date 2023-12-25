@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders Message component correctly 1`] = `
+<DocumentFragment>
+  <span
+    class="_message_c69e04"
+    style="background-color: darkGreen;"
+  >
+    Nice job! Character found.
+  </span>
+</DocumentFragment>
+`;

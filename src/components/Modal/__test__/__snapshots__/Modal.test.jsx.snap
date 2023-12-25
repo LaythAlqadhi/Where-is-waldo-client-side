@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Modal component renders correctly 1`] = `undefined`;
+
+exports[`Modal component renders correctly 2`] = `undefined`;
+
+exports[`Modal component renders correctly 3`] = `undefined`;
+
+exports[`Modal component renders correctly 4`] = `undefined`;
+
+exports[`renders Modal component correctly 1`] = `undefined`;
+
+exports[`renders Modal component correctly 2`] = `undefined`;
+
+exports[`renders Modal component correctly 3`] = `undefined`;
+
+exports[`renders Modal component correctly 4`] = `undefined`;

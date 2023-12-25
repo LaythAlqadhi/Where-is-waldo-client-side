@@ -1,0 +1,95 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --primary-accent-color: #96f;
+  --secondary-accent-color: #eaa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 10px 15%;
+  font-size: 1.25rem;
+  background-color: var(--primary-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header :first-child {
+  margin-right: auto;
+}
+
+.loading.active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: var(--secondary-accent-color);
+  border-radius: 10px;
+  animation: loading .5s infinite;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.25rem;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  margin: 10px;
+  padding: 8px 16px;
+  font-size: 1.25rem;
+  background-color: var(--primary-accent-color);
+  border-radius: 16px;
+  color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--secondary-accent-color);
+}
+
+@keyframes loading {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+    background-color: var(--primary-accent-color);
+  }
+}

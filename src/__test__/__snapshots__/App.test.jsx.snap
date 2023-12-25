@@ -1,0 +1,42 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders App component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="loading false"
+  />
+  <header>
+    <a
+      aria-label="Logo"
+      href="/"
+    >
+      Dragon Charmer's Island
+    </a>
+  </header>
+  <div
+    class="_container_da09e4"
+  >
+    <button>
+      <a
+        href="/game"
+      >
+        Start
+      </a>
+    </button>
+    <button>
+      <a
+        href="/leaderboard"
+      >
+        Leaderboard
+      </a>
+    </button>
+  </div>
+  <footer>
+    <span
+      aria-label="copyright"
+    >
+      © 2023 Website Name
+    </span>
+  </footer>
+</DocumentFragment>
+`;

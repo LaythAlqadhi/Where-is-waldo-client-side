@@ -1,0 +1,45 @@
+.menu {
+  position: absolute;
+  visibility: hidden;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 16px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.menu div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  transform: scale(1);
+  transition: transform .25s;
+  cursor: pointer;
+}
+
+.menu div::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: .15;
+  border-radius: 16px;
+  transition: background-color .25s;
+}
+
+.menu div:hover::before {
+  background-color: var(--secondary-accent-color);
+}
+
+.menu div:active {
+  transform: scale(.95);
+}
+
+.menu div span {
+  align-self: center;
+}
+
+.menu div img {
+  width: 50px;
+  margen: 10px;
+}

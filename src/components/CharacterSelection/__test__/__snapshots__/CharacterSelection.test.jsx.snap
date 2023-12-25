@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CharacterSelection component renders correctly with mock data 1`] = `undefined`;
+
+exports[`CharacterSelection component renders correctly with mock data 2`] = `undefined`;
+
+exports[`renders CharacterSelection component correctly with mock data 1`] = `undefined`;
+
+exports[`renders CharacterSelection component renders correctly with mock data 1`] = `undefined`;
