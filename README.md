@@ -1,10 +1,19 @@
-# Where's Waldo (A Photo Tagging App)
-
-This is a Full Stack MERN app that simulates a Where's Waldo game. Users can identify characters within a large image by selecting their positions, receiving feedback, and competing for high scores.
+# Where's Waldo (A Photo Tagging App) Client Side
+This this a Where's Waldo web game application built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
+Check out the [server-side repo](https://github.com/LaythAlqadhi/where-is-waldo-server-side).
 
 ## Preview
-[Preview](https://where-is-waldo-five.vercel.app/).
+Check out the web application [Where's Waldo](https://where-is-waldo-five.vercel.app) to explore its features.
 
-## Backend Repository
-Explore the server-side implementation in the dedicated repository:
-[Backend Repo](https://github.com/LaythAlqadhi/where-is-waldo-server-side).
+## Pages
+- Home page
+- Game page
+- Leaderboard page
+- Not Found page
+
+## Features
+- Displaying a menu around the portion of the photo that the user has clicked.
+- The menu contains a list of possible characters.
+- Providing the user with appropriate feedback.
+- Tracking of how long it takes from when the photo is first loaded to when the user finally identifies all of the characters.
+- Displaying a modal once a round is complete to ask the user to add their name and record that time.
