@@ -1,5 +1,5 @@
 # Where's Waldo (A Photo Tagging App) Client Side
-This this a Where's Waldo web game built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
+This this a Where's Waldo web game built using the MERN stack (MongoDB, Express.js, React.js, Node.js) along with the CSS module fir styling.
 Check out the [server-side repo](https://github.com/LaythAlqadhi/where-is-waldo-server-side).
 
 ## Preview
