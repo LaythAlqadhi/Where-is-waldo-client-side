@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { GameContext } from '../../GameContext';
+import formatDate from '../../utils/formatDate';
 import style from './Leaderboard.module.css';
 
 function Leaderboard() {
@@ -33,9 +34,6 @@ function Leaderboard() {
 
     fetchData();
   }, []);
-
-  const formatDate = (dateByMS) =>
-    new Date(dateByMS).toLocaleString().substr(0, 10);
 
   return (
     <div className={style.container}>
