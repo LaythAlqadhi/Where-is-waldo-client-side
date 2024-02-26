@@ -16,11 +16,11 @@ Check out the web application [Where's Waldo](https://where-is-waldo-five.vercel
 - Not Found page
 
 ## Features
-- Displaying a menu around the portion of the photo that the user has clicked.
-- The menu contains a list of possible characters.
-- Providing the user with appropriate feedback.
-- Tracking of how long it takes from when the photo is first loaded to when the user finally identifies all of the characters.
-- Displaying a modal once a round is complete to ask the user to add their name and record that time.
+- Implemented a dynamic menu displayed around the portion of the photo clicked by the user, containing a list of possible characters.
+- Provided users with appropriate feedback during gameplay to enhance the user experience.
+- Tracked the duration from when the photo is first loaded to when the user successfully identifies all characters, allowing for performance evaluation.
+- Utilized a modal to prompt users to add their name and record completion time once a round is complete.
+- Designed a Leaderboard page to showcase users' completion times and rankings.
 
 ## Installation
 1. **Clone the Repository:**
